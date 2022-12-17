@@ -1,0 +1,26 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "void:6_grid_z",
+      "places_feature": "void:grid_z_assembly"
+    },
+    "conditions": {
+      "placement_pass": "final_pass",
+      "minecraft:biome_filter": [
+        {
+          "test": "has_biome_tag", "operator": "!=", "value": "the_end"
+        }
+      ]
+    },    
+    "distribution": {
+      "iterations": "(math.mod((variable.worldx/16),2)==0 && math.mod((variable.worldz/16),2)!=0) ? 16 : 0",
+      "x": 0,
+      "z": {
+        "distribution": "fixed_grid",
+        "extent": [ 0, 15 ]
+      },
+      "y": -61
+    }
+  }
+}

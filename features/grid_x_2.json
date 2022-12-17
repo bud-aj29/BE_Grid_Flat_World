@@ -1,0 +1,14 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "void:grid_x_2"
+    },
+    "places_feature": "void:void_smooth_stone",
+    "scatter_chance": 100,
+    "iterations": 1,
+    "x": 0,
+    "z": 15,
+    "y": 0
+  }
+}

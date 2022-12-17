@@ -1,0 +1,18 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:aggregate_feature": {
+    "description": {
+      "identifier": "void:grid_x_assembly"
+    },
+    "features": [
+      "void:grid_x_1",
+      "void:grid_x_2",
+      "void:grid_x_3",
+      "void:grid_x_4",
+      "void:grid_x_5",
+      "void:grid_x_6",
+      "void:grid_x_7",
+      "void:grid_x_8"
+    ]
+  }
+}
