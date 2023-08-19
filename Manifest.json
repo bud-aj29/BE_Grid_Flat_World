@@ -3,15 +3,15 @@
 	"header": {
 		"description": "Flat world generation with chunk outlines",
 		"name": "Grid_Flat_World",
-		"uuid": "f30fd7cb-f905-4fa3-9cca-00413b3851c2",
-		"version": [ 0,0,2 ],
-		"min_engine_version": [ 1, 19, 30 ]
+		"uuid": "5cb63d5b-ca33-4c41-a2b0-23b9c1ca082e",
+		"version": [ 0,0,3 ],
+		"min_engine_version": [ 1, 20, 10 ]
 	},
 	"modules": [
 		{
 			"description": "",
 			"type": "data",
-			"uuid": "522bfd78-d8c1-455f-b6b8-b953cf9cdeae",
+			"uuid": "68ce0d79-34f3-4096-a483-8c5bb49b3eb2",
 			"version": [0, 0, 1]
 		}
 	]
