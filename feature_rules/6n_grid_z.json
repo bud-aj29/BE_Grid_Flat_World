@@ -2,26 +2,25 @@
   "format_version": "1.13.0",
   "minecraft:feature_rules": {
     "description": {
-      "identifier": "void:5_grid_x",
-      "places_feature": "void:grid_x_assembly"
+      "identifier": "void:6n_grid_z",
+      "places_feature": "void:grid_z_assembly"
     },
     "conditions": {
-      "placement_pass": "after_sky_pass",
+      "placement_pass": "final_pass",
       "minecraft:biome_filter": [
         {
-          "test": "has_biome_tag", "operator": "!=", "value": "the_end",
-          "test": "has_biome_tag", "operator": "!=", "value": "nether"
+          "test": "has_biome_tag", "operator": "==", "value": "nether"
         }
       ]
     },    
     "distribution": {
       "iterations": "(math.mod((variable.worldx/16),2)==0 && math.mod((variable.worldz/16),2)!=0) ? 16 : 0",
-      "x": {
+      "x": 0,
+      "z": {
         "distribution": "fixed_grid",
         "extent": [ 0, 15 ]
       },
-      "z": 0,
-      "y": -61
+      "y": 1
     }
   }
 }

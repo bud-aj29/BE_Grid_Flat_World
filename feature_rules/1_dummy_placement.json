@@ -2,15 +2,14 @@
   "format_version": "1.13.0",
   "minecraft:feature_rules": {
     "description": {
-      "identifier": "dummy:6_dummy_placement",
+      "identifier": "1_dummy_placement",
       "places_feature": "minecraft:dirt_feature"
     },
     "conditions": {
       "placement_pass": "final_pass",
       "minecraft:biome_filter": [
         {
-          "test": "has_biome_tag", "operator": "!=", "value": "the_end",
-	  "test": "has_biome_tag", "operator": "!=", "value": "nether"
+          "test": "has_biome_tag", "operator": "!=", "value": "the_end"
         }
       ]
     },    

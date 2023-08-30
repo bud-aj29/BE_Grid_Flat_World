@@ -23,7 +23,7 @@
         "distribution": "fixed_grid",
         "extent": [ 0, 15 ]
       },
-      "y": -63
+      "y": 1
     }
   }
 }
