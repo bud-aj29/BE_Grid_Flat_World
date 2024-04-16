@@ -1,0 +1,27 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "grid:5_grid_x",
+      "places_feature": "grid:grid/grid_x_assembly"
+    },
+    "conditions": {
+      "placement_pass": "surface_pass",
+      "minecraft:biome_filter": [
+        {
+          "test": "has_biome_tag", "operator": "!=", "value": "the_end",
+          "test": "has_biome_tag", "operator": "!=", "value": "nether"
+        }
+      ]
+    },    
+    "distribution": {
+      "iterations": "(math.mod((v.originx/16),2)==0 && math.mod((v.originz/16),2)!=0) ? 16 : 0",
+      "x": {
+        "distribution": "fixed_grid",
+        "extent": [ 0, 15 ]
+      },
+      "z": 0,
+      "y": -61
+    }
+  }
+}

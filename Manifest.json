@@ -1,19 +1,30 @@
 {
-	"format_version": 2,
-	"header": {
-		"description": "Flat world generation with chunk outlines",
-		"name": "Grid_Flat_World 0.0.4",
-		"uuid": "2facf27c-bae6-4adf-b829-42ef3baf37f1",
-		"version": [ 0,0,4 ],
-		"min_engine_version": [ 1, 20, 10 ]
-	},
-	"modules": [
-		{
-			"description": "",
-			"type": "data",
-			"uuid": "7235aa71-1c4e-4c45-ac03-1c31c84a7b66",
-			"version": [0, 0, 1]
-		}
-	]
+  "format_version": 2,
+  "header": {
+    "description": "Flat world generation with chunk outlines",
+    "name": "Grid_Flat_World_v0.0.5",
+    "uuid": "b98e068b-0801-4a87-88d6-848650ea3873",
+    "version": [
+      0,
+      0,
+      5
+    ],
+    "min_engine_version": [
+      1,
+      20,
+      60
+    ]
+  },
+  "modules": [
+    {
+      "description": "",
+      "type": "data",
+      "uuid": "92db279e-4089-41ed-8223-7cfda9f86950",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    }
+  ]
 }
-

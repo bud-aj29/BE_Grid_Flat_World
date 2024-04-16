@@ -1,0 +1,18 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:aggregate_feature": {
+    "description": {
+      "identifier": "grid:grid/grid_z_assembly"
+    },
+    "features": [
+      "grid:grid/grid_z_1",
+      "grid:grid/grid_z_2",
+      "grid:grid/grid_z_3",
+      "grid:grid/grid_z_4",
+      "grid:grid/grid_z_5",
+      "grid:grid/grid_z_6",
+      "grid:grid/grid_z_7",
+      "grid:grid/grid_z_8"
+    ]
+  }
+}

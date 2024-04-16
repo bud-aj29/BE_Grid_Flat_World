@@ -1,0 +1,14 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "grid:grid/grid_x_8"
+    },
+    "places_feature": "grid:grid/grid_andesite_smooth",
+    "scatter_chance": 100,
+    "iterations": 1,
+    "x": 16,
+    "z": 15,
+    "y": 0
+  }
+}
