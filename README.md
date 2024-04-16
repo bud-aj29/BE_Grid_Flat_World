@@ -1,4 +1,4 @@
-- Last tested on 1.20.60
+- Last tested on 1.20.73
 - v0.0.5 changes:
   - Various code and file organization improvements
 - Flat world generation
