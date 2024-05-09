@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Flat world generation with chunk outlines",
+    "name": "Grid_Flat_World_v0.0.6",
+    "uuid": "d2b0c4c1-ff49-42a9-9acc-6459b4c0470f",
+    "version": [
+      0,
+      0,
+      6
+    ],
+    "min_engine_version": [
+      1,
+      20,
+      60
+    ]
+  },
+  "modules": [
+    {
+      "description": "",
+      "type": "data",
+      "uuid": "7d6c5391-c868-42d8-9350-c9781e9de465",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    }
+  ]
+}
