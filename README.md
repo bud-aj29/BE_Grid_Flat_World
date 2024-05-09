@@ -1,6 +1,6 @@
 - Last tested on 1.20.73
-- v0.0.5 changes:
-  - Various code and file organization improvements
+- v0.0.6 changes:
+  - Renamed manifest file to fix bug loading on some OS
 - Flat world generation
 - Chunk outline grid automatically generated
 - Structures deleted during void generation. Some structures are hard-coded and cannot be removed (e.g. mine-shaft planks)
